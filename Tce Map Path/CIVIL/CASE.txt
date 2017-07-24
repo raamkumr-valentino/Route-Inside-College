@@ -1,0 +1,250 @@
+	case "CIVILMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(cvl);
+                builder.include(main);
+                break;
+            case "CIVILMECH":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(cvl);
+                builder.include(mec);
+                break;
+            case "CIVILIT":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(cvl);
+                builder.include(it1);
+                break;
+            case "CIVILCSE":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CICSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(cvl);
+                builder.include(cse);
+                break;
+            case "CIVILECE":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniCIVIL";
+                builder.include(cvl);
+                builder.include(ece);
+                break;
+            case "CIVILEEE":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(cvl);
+                builder.include(eee);
+                break;
+            case "CIVILMECHT":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIMECHT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="MechatroniCIVIL";
+                builder.include(cvl);
+                builder.include(mect);
+                break;
+            case "CIVILARCH":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(cvl);
+                builder.include(arch);
+                break;
+            case "CIVILScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CISCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(cvl);
+                builder.include(sci);
+                break;
+            case "CIVILFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(cvl);
+                builder.include(bhalls);
+                break;
+            case "CIVILNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CINCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(cvl);
+                builder.include(ncc);
+                break;
+            case "CIVILIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(cvl);
+                builder.include(ind);
+                break;
+            case "CIVILOutdoor":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(cvl);
+                builder.include(out);
+                break;
+            case "CIVILKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KS Auditorium";
+                builder.include(cvl);
+                builder.include(ks);
+                break;
+            case "CIVILKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIKMAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KM Auditorium";
+                builder.include(cvl);
+                builder.include(km);
+                break;
+            case "CIVILPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(cvl);
+                builder.include(pc);
+                break;
+            case "CIVILGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(cvl);
+                builder.include(gh);
+                break;
+            case "CIVILMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(cvl);
+                builder.include(mhos);
+                break;
+            case "CIVILWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(cvl);
+                builder.include(ghos);
+                break;
+            case "CIVILMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(cvl);
+                builder.include(mcan);
+                break;
+            case "CIVILFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(cvl);
+                builder.include(fc);
+                break;
+            case "CIVILLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CILIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(cvl);
+                builder.include(lib);
+                break;
+            case "CIVILBank":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(cvl);
+                builder.include(ban);
+                break;
+            case "CIVILTemple":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CITEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(cvl);
+                builder.include(temple);
+                break;
+            case "CIVILParking":
+                from=mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(CIPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(cvl);
+                builder.include(par);
+                break;

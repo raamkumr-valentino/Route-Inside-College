@@ -1,0 +1,250 @@
+	case "ParkingMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PMAINBUILDING).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parkinganical";
+                builder.include(par);
+                builder.include(main);
+                break;
+            case "ParkingCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PCIVIL).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parkinganical";
+                builder.include(par);
+                builder.include(cvl);
+                break;
+            case "ParkingIT":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PIT).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(par);
+                builder.include(it1);
+                break;
+            case "ParkingCSE":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PCSE).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(par);
+                builder.include(cse);
+                break;
+            case "ParkingECE":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PECE).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniParking";
+                builder.include(par);
+                builder.include(ece);
+                break;
+            case "ParkingEEE":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PEEE).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(par);
+                builder.include(eee);
+                break;
+            case "ParkingMECH":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PMECH).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="ParkingatroniParking";
+                builder.include(par);
+                builder.include(mec);
+                break;
+            case "ParkingMECT":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PMECT).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(par);
+                builder.include(mect);
+                break;
+            case "ParkingScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PSCIENCEBLOCK).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(par);
+                builder.include(sci);
+                break;
+            case "ParkingLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PLIBRARY).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(par);
+                builder.include(lib);
+                break;
+            case "ParkingNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PNCCBLOCK).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(par);
+                builder.include(ncc);
+                break;
+            case "ParkingIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PINDOOR).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(par);
+                builder.include(ind);
+                break;
+            case "ParkingKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PKS AUDITORIUM).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(par);
+                builder.include(ks);
+                break;
+            case "ParkingARCH":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PARCH).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(par);
+                builder.include(arch);
+                break;
+            case "ParkingKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PKSAUDITORIUM).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="P Auditorium";
+                builder.include(par);
+                builder.include(km);
+                break;
+            case "ParkingOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(POUTDOOR).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(par);
+                builder.include(out);
+                break;
+            case "ParkingGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PGUESTHOUSE).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(par);
+                builder.include(gh);
+                break;
+            case "ParkingMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PMENSHOSTEL).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(par);
+                builder.include(mhos);
+                break;
+            case "ParkingWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PWOMENSHOSTEL).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(par);
+                builder.include(ghos);
+                break;
+            case "ParkingMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PMAINCANTEEN).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(par);
+                builder.include(mcan);
+                break;
+            case "ParkingFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PFOODCOURT).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(par);
+                builder.include(fc);
+                break;
+            case "ParkingPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PPLACEMENTCELL).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Pibraray";
+                builder.include(par);
+                builder.include(pc);
+                break;
+            case "ParkingBank":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PBANK).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(par);
+                builder.include(ban);
+                break;
+            case "ParkingTemple":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PTEMPLE).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(par);
+                builder.include(temple);
+                break;
+            case "ParkingFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fb).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rpare = mMap.addPolyline(new PolylineOptions().addAll(PFRESHERSBLOCK).width(25).color(Color.YEPPOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(par);
+                builder.include(fb);
+                break;

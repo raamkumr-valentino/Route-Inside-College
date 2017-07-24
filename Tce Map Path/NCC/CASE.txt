@@ -1,0 +1,250 @@
+	case "NCC BlockMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCMAINBUILDING).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Blockanical";
+                builder.include(ncc);
+                builder.include(main);
+                break;
+            case "NCC BlockCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCCIVIL).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Blockanical";
+                builder.include(ncc);
+                builder.include(cvl);
+                break;
+            case "NCC BlockIT":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCIT).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(ncc);
+                builder.include(it1);
+                break;
+            case "NCC BlockCSE":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCCSE).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(ncc);
+                builder.include(cse);
+                break;
+            case "NCC BlockECE":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCECE).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniNCC Block";
+                builder.include(ncc);
+                builder.include(ece);
+                break;
+            case "NCC BlockEEE":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCEEE).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(ncc);
+                builder.include(eee);
+                break;
+            case "NCC BlockMECH":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCMECH).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC BlockatroniNCC Block";
+                builder.include(ncc);
+                builder.include(mec);
+                break;
+            case "NCC BlockMECT":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCMECT).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(ncc);
+                builder.include(mect);
+                break;
+            case "NCC BlockScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCSCIENCEBLOCK).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(ncc);
+                builder.include(sci);
+                break;
+            case "NCC BlockLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCLIBRARY).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ncc);
+                builder.include(lib);
+                break;
+            case "NCC BlockFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCFRESHERSBLOCK).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ncc);
+                builder.include(bhalls);
+                break;
+            case "NCC BlockIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCINDOOR).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ncc);
+                builder.include(ind);
+                break;
+            case "NCC BlockKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCKS AUDITORIUM).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ncc);
+                builder.include(ks);
+                break;
+            case "NCC BlockARCH":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCARCH).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ncc);
+                builder.include(arch);
+                break;
+            case "NCC BlockKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCKSAUDITORIUM).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Auditorium";
+                builder.include(ncc);
+                builder.include(km);
+                break;
+            case "NCC BlockOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCOUTDOOR).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(ncc);
+                builder.include(out);
+                break;
+            case "NCC BlockGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCGUESTHOUSE).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(ncc);
+                builder.include(gh);
+                break;
+            case "NCC BlockMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCMENSHOSTENCC).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(ncc);
+                builder.include(mhos);
+                break;
+            case "NCC BlockWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCWOMENSHOSTEL).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ncc);
+                builder.include(ghos);
+                break;
+            case "NCC BlockMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCMAINCANTEEN).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(ncc);
+                builder.include(mcan);
+                break;
+            case "NCC BlockFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCFOODCOURT).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(ncc);
+                builder.include(fc);
+                break;
+            case "NCC BlockPLACEMENT CENCCNCC":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCPLACEMENTCELL).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="NCCibraray";
+                builder.include(ncc);
+                builder.include(pc);
+                break;
+            case "NCC BlockBank":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCBANK).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ncc);
+                builder.include(ban);
+                break;
+            case "NCC BlockTemple":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCTEMPNCCE).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(ncc);
+                builder.include(temple);
+                break;
+            case "NCC BlockParking":
+                from=mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rncce = mMap.addPolyline(new PolylineOptions().addAll(NCCPARKING).width(25).color(Color.YENCCNCCOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(ncc);
+                builder.include(par);
+                break;

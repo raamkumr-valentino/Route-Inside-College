@@ -1,0 +1,250 @@
+	case "Main CanteenMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCMAINBUILDING).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteenanical";
+                builder.include(mcan);
+                builder.include(main);
+                break;
+            case "Main CanteenCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCCIVIL).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteenanical";
+                builder.include(mcan);
+                builder.include(cvl);
+                break;
+            case "Main CanteenIT":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCIT).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(mcan);
+                builder.include(it1);
+                break;
+            case "Main CanteenCSE":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCCSE).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(mcan);
+                builder.include(cse);
+                break;
+            case "Main CanteenECE":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCECE).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniMain Canteen";
+                builder.include(mcan);
+                builder.include(ece);
+                break;
+            case "Main CanteenEEE":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCEEE).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(mcan);
+                builder.include(eee);
+                break;
+            case "Main CanteenMECH":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCMECH).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main CanteenatroniMain Canteen";
+                builder.include(mcan);
+                builder.include(mec);
+                break;
+            case "Main CanteenMECT":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCMECT).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(mcan);
+                builder.include(mect);
+                break;
+            case "Main CanteenScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCSCIENCEBLOCK).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(mcan);
+                builder.include(sci);
+                break;
+            case "Main CanteenLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCLIBRARY).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(mcan);
+                builder.include(lib);
+                break;
+            case "Main CanteenNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCNCCBLOCK).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(mcan);
+                builder.include(ncc);
+                break;
+            case "Main CanteenIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCINDOOR).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(mcan);
+                builder.include(ind);
+                break;
+            case "Main CanteenKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCKS AUDITORIUM).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(mcan);
+                builder.include(ks);
+                break;
+            case "Main CanteenARCH":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCARCH).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(mcan);
+                builder.include(arch);
+                break;
+            case "Main CanteenKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCKSAUDITORIUM).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="MC Auditorium";
+                builder.include(mcan);
+                builder.include(km);
+                break;
+            case "Main CanteenOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCOUTDOOR).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(mcan);
+                builder.include(out);
+                break;
+            case "Main CanteenGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCGUESTHOUSE).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(mcan);
+                builder.include(gh);
+                break;
+            case "Main CanteenMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCMENSHOSTEL).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(mcan);
+                builder.include(mhos);
+                break;
+            case "Main CanteenWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCWOMENSHOSTEL).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(mcan);
+                builder.include(ghos);
+                break;
+            case "Main CanteenFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCFRESHERSBLOCK).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(mcan);
+                builder.include(bhalls);
+                break;
+            case "Main CanteenFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCFOODCOURT).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(mcan);
+                builder.include(fc);
+                break;
+            case "Main CanteenPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCPLACEMENTCELL).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="MCibraray";
+                builder.include(mcan);
+                builder.include(pc);
+                break;
+            case "Main CanteenBank":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCBANK).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(mcan);
+                builder.include(ban);
+                break;
+            case "Main CanteenTemple":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCTEMPLE).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(mcan);
+                builder.include(temple);
+                break;
+            case "Main CanteenParking":
+                from=mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rmcane = mMap.addPolyline(new PolylineOptions().addAll(MCPARKING).width(25).color(Color.YEMCMCOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(mcan);
+                builder.include(par);
+                break;

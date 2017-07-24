@@ -1,0 +1,251 @@
+	case "IndoorMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INMAINBUILDING).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indooranical";
+                builder.include(ind);
+                builder.include(main);
+		drawPath(ind,main,"Indoor","Main Building",INMAINBUILDING);
+                break;
+            case "IndoorCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INCIVIL).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indooranical";
+                builder.include(ind);
+                builder.include(cvl);
+                break;
+            case "IndoorIT":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INIT).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(ind);
+                builder.include(it1);
+                break;
+            case "IndoorCSE":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INCSE).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(ind);
+                builder.include(cse);
+                break;
+            case "IndoorECE":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INECE).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniIndoor";
+                builder.include(ind);
+                builder.include(ece);
+                break;
+            case "IndoorEEE":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INEEE).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(ind);
+                builder.include(eee);
+                break;
+            case "IndoorMECH":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INMECH).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="IndooratroniIndoor";
+                builder.include(ind);
+                builder.include(mec);
+                break;
+            case "IndoorMECT":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INMECT).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(ind);
+                builder.include(mect);
+                break;
+            case "IndoorScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INSCIENCEBLOCK).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(ind);
+                builder.include(sci);
+                break;
+            case "IndoorLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INLIBRARY).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ind);
+                builder.include(lib);
+                break;
+            case "IndoorNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INNCCBLOCK).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ind);
+                builder.include(ncc);
+                break;
+            case "IndoorFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INFRESHERSBLOCK).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ind);
+                builder.include(bhalls);
+                break;
+            case "IndoorKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INKS AUDITORIUM).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ind);
+                builder.include(ks);
+                break;
+            case "IndoorARCH":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INARCH).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ind);
+                builder.include(arch);
+                break;
+            case "IndoorKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INKSAUDITORIUM).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="IN Auditorium";
+                builder.include(ind);
+                builder.include(km);
+                break;
+            case "IndoorOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INOUTDOOR).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(ind);
+                builder.include(out);
+                break;
+            case "IndoorGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INGUESTHOUSE).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(ind);
+                builder.include(gh);
+                break;
+            case "IndoorMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INMENSHOSTEIN).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(ind);
+                builder.include(mhos);
+                break;
+            case "IndoorWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INWOMENSHOSTEL).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ind);
+                builder.include(ghos);
+                break;
+            case "IndoorMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INMAINCANTEEN).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(ind);
+                builder.include(mcan);
+                break;
+            case "IndoorFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INFOODCOURT).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(ind);
+                builder.include(fc);
+                break;
+            case "IndoorPLACEMENT CEININ":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INPLACEMENTCELL).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="INibraray";
+                builder.include(ind);
+                builder.include(pc);
+                break;
+            case "IndoorBank":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INBANK).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ind);
+                builder.include(ban);
+                break;
+            case "IndoorTemple":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INTEMPINE).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(ind);
+                builder.include(temple);
+                break;
+            case "IndoorParking":
+                from=mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rinde = mMap.addPolyline(new PolylineOptions().addAll(INPARKING).width(25).color(Color.YEININOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(ind);
+                builder.include(par);
+                break;

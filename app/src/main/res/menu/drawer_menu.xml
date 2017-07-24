@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Department"
+        android:id="@+id/department_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/dept_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="IT" />
+            <item
+                android:id="@+id/dept_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="CSE"/>
+            <item
+                android:id="@+id/dept_id3"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="ECE"/>
+            <item
+                android:id="@+id/dept_id4"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="EEE"/>
+            <item
+                android:id="@+id/dept_id5"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="CIVIL"/>
+            <item
+                android:id="@+id/dept_id6"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="MECH"/>
+            <item
+                android:id="@+id/dept_id7"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="MECHT"/>
+            <item
+                android:id="@+id/dept_id8"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="ARCH"/>
+        </menu>
+    </item>
+    <item
+        android:title="Blocks"
+        android:id="@+id/blocks_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/block_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Science Block"/>
+            <item
+                android:id="@+id/block_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Freshers Block"/>
+            <item
+                android:id="@+id/block_id3"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="NCC Block"/>
+        </menu>
+    </item>
+    <item
+        android:title="Physical Education"
+        android:id="@+id/phy_edu_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/phy_edu_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Indoor"/>
+            <item
+                android:id="@+id/phy_edu_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Outdoor"/>
+        </menu>
+    </item>
+    <item
+        android:title="Auditorium"
+        android:id="@+id/audi_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/audi_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="KS Auditorium"/>
+            <item
+                android:id="@+id/audi_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="KM Auditorium"/>
+        </menu>
+    </item>
+    <item
+        android:title="Placement Office"
+        android:id="@+id/placement_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/placement_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Placement Cell"/>
+            <item
+                android:id="@+id/placement_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Guest House"/>
+        </menu>
+    </item>
+    <item
+        android:title="Canteen"
+        android:id="@+id/canteen_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/canteen_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Main Canteen"/>
+            <item
+                android:id="@+id/canteen_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Food Court"/>
+        </menu>
+    </item>
+    <item
+        android:title="Hostel"
+        android:id="@+id/Hostel_id"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/hostel_id1"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Mens Hostel"/>
+            <item
+                android:id="@+id/hostel_id2"
+                android:icon="@mipmap/ic_star_half_white_36dp"
+                android:title="Womens Hostel"/>
+        </menu>
+    </item>
+    <item
+        android:title="Library"
+        android:icon="@mipmap/ic_star_half_white_36dp"
+        android:id="@+id/library_id">
+    </item>
+    <item
+        android:title="Bank"
+        android:icon="@mipmap/ic_star_half_white_36dp"
+        android:id="@+id/bank_id">
+    </item>
+    <item
+        android:title="Temple"
+        android:icon="@mipmap/ic_star_half_white_36dp"
+        android:id="@+id/temple_id">
+    </item>
+    <item
+        android:title="Parking"
+        android:icon="@mipmap/ic_star_half_white_36dp"
+        android:id="@+id/parking_id">
+    </item>
+    <item
+        android:title="About"
+        android:icon="@mipmap/ic_star_half_white_36dp"
+        android:id="@+id/about_id">
+    </item>
+</menu>

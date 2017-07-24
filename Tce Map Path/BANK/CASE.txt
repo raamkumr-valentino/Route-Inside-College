@@ -1,0 +1,250 @@
+	case "BankMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BMAINBUILDING).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bankanical";
+                builder.include(ban);
+                builder.include(main);
+                break;
+            case "BankCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BCIVIL).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bankanical";
+                builder.include(ban);
+                builder.include(cvl);
+                break;
+            case "BankIT":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BIT).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(ban);
+                builder.include(it1);
+                break;
+            case "BankCSE":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BCSE).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(ban);
+                builder.include(cse);
+                break;
+            case "BankECE":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BECE).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniBank";
+                builder.include(ban);
+                builder.include(ece);
+                break;
+            case "BankEEE":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BEEE).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(ban);
+                builder.include(eee);
+                break;
+            case "BankMECH":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BMECH).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="BankatroniBank";
+                builder.include(ban);
+                builder.include(mec);
+                break;
+            case "BankMECT":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BMECT).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(ban);
+                builder.include(mect);
+                break;
+            case "BankScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BSCIENCEBLOCK).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(ban);
+                builder.include(sci);
+                break;
+            case "BankLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BLIBRARY).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ban);
+                builder.include(lib);
+                break;
+            case "BankNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BNCCBLOCK).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ban);
+                builder.include(ncc);
+                break;
+            case "BankIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BINDOOR).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ban);
+                builder.include(ind);
+                break;
+            case "BankKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BKS AUDITORIUM).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ban);
+                builder.include(ks);
+                break;
+            case "BankARCH":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BARCH).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ban);
+                builder.include(arch);
+                break;
+            case "BankKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BKSAUDITORIUM).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="B Auditorium";
+                builder.include(ban);
+                builder.include(km);
+                break;
+            case "BankOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BOUTDOOR).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(ban);
+                builder.include(out);
+                break;
+            case "BankGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BGUESTHOUSE).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(ban);
+                builder.include(gh);
+                break;
+            case "BankMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BMENSHOSTEB).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(ban);
+                builder.include(mhos);
+                break;
+            case "BankWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BWOMENSHOSTEL).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ban);
+                builder.include(ghos);
+                break;
+            case "BankMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BMAINCANTEEN).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(ban);
+                builder.include(mcan);
+                break;
+            case "BankFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BFOODCOURT).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(ban);
+                builder.include(fc);
+                break;
+            case "BankPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BPLACEMENTCELL).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bibraray";
+                builder.include(ban);
+                builder.include(pc);
+                break;
+            case "BankFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BFRESHERSBLOCK).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ban);
+                builder.include(bhalls);
+                break;
+            case "BankTemple":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BTEMPLE).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(ban);
+                builder.include(temple);
+                break;
+            case "BankParking":
+                from=mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbane = mMap.addPolyline(new PolylineOptions().addAll(BPARKING).width(25).color(Color.YEBBOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(ban);
+                builder.include(par);
+                break;

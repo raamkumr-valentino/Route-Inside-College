@@ -1,0 +1,250 @@
+	case "OutdoorMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdooranical";
+                builder.include(out);
+                builder.include(main);
+                break;
+            case "OutdoorCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTCIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdooranical";
+                builder.include(out);
+                builder.include(cvl);
+                break;
+            case "OutdoorIT":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(out);
+                builder.include(it1);
+                break;
+            case "OutdoorCSE":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTCSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(out);
+                builder.include(cse);
+                break;
+            case "OutdoorECE":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniOutdoor";
+                builder.include(out);
+                builder.include(ece);
+                break;
+            case "OutdoorEEE":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(out);
+                builder.include(eee);
+                break;
+            case "OutdoorMECH":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="OutdooratroniOutdoor";
+                builder.include(out);
+                builder.include(mec);
+                break;
+            case "OutdoorMECT":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTMECT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(out);
+                builder.include(mect);
+                break;
+            case "OutdoorScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTSCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(out);
+                builder.include(sci);
+                break;
+            case "OutdoorFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(out);
+                builder.include(bhalls);
+                break;
+            case "OutdoorNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTNCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(out);
+                builder.include(ncc);
+                break;
+            case "OutdoorIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(out);
+                builder.include(ind);
+                break;
+            case "OutdoorKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTKS AUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(out);
+                builder.include(ks);
+                break;
+            case "OutdoorARCH":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(out);
+                builder.include(arch);
+                break;
+            case "OutdoorKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTKMAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="OUT Auditorium";
+                builder.include(out);
+                builder.include(km);
+                break;
+            case "OutdoorPlacement Cell":
+                from=mTMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(out);
+                builder.include(pc);
+                break;
+            case "OutdoorGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(out);
+                builder.include(gh);
+                break;
+            case "OutdoorMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(out);
+                builder.include(mhos);
+                break;
+            case "OutdoorWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(out);
+                builder.include(ghos);
+                break;
+            case "OutdoorMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(out);
+                builder.include(mcan);
+                break;
+            case "OutdoorFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(out);
+                builder.include(fc);
+                break;
+            case "OutdoorLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTLIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(out);
+                builder.include(lib);
+                break;
+            case "OutdoorBank":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(out);
+                builder.include(ban);
+                break;
+            case "OutdoorTemple":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTTEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(out);
+                builder.include(temple);
+                break;
+            case "OutdoorParking":
+                from=mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(OUTPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(out);
+                builder.include(par);
+                break;

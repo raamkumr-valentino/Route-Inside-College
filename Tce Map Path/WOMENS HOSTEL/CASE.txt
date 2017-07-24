@@ -1,0 +1,250 @@
+	case "Womens HostelMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHMAINBUILDING).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostelanical";
+                builder.include(ghos);
+                builder.include(main);
+                break;
+            case "Womens HostelCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHCIVIL).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostelanical";
+                builder.include(ghos);
+                builder.include(cvl);
+                break;
+            case "Womens HostelIT":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHIT).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(ghos);
+                builder.include(it1);
+                break;
+            case "Womens HostelCSE":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHCSE).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(ghos);
+                builder.include(cse);
+                break;
+            case "Womens HostelECE":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHECE).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniWomens Hostel";
+                builder.include(ghos);
+                builder.include(ece);
+                break;
+            case "Womens HostelEEE":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHEEE).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(ghos);
+                builder.include(eee);
+                break;
+            case "Womens HostelMECH":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHMECH).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens HostelatroniWomens Hostel";
+                builder.include(ghos);
+                builder.include(mec);
+                break;
+            case "Womens HostelMECT":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHMECT).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(ghos);
+                builder.include(mect);
+                break;
+            case "Womens HostelScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHSCIENCEBLOCK).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(ghos);
+                builder.include(sci);
+                break;
+            case "Womens HostelLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHLIBRARY).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ghos);
+                builder.include(lib);
+                break;
+            case "Womens HostelNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHNCCBLOCK).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(ghos);
+                builder.include(ncc);
+                break;
+            case "Womens HostelIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHINDOOR).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(ghos);
+                builder.include(ind);
+                break;
+            case "Womens HostelKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHKS AUDITORIUM).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ghos);
+                builder.include(ks);
+                break;
+            case "Womens HostelARCH":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHARCH).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ghos);
+                builder.include(arch);
+                break;
+            case "Womens HostelKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHKSAUDITORIUM).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="WH Auditorium";
+                builder.include(ghos);
+                builder.include(km);
+                break;
+            case "Womens HostelOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHOUTDOOR).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(ghos);
+                builder.include(out);
+                break;
+            case "Womens HostelGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHGUESTHOUSE).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(ghos);
+                builder.include(gh);
+                break;
+            case "Womens HostelMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHMENSHOSTEWH).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(ghos);
+                builder.include(mhos);
+                break;
+            case "Womens HostelFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHFRESHERSBLOCK).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(ghos);
+                builder.include(bhalls);
+                break;
+            case "Womens HostelMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHMAINCANTEEN).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(ghos);
+                builder.include(mcan);
+                break;
+            case "Womens HostelFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHFOODCOURT).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(ghos);
+                builder.include(fc);
+                break;
+            case "Womens HostelPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHPLACEMENTCELL).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="WHibraray";
+                builder.include(ghos);
+                builder.include(pc);
+                break;
+            case "Womens HostelBank":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHBANK).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(ghos);
+                builder.include(ban);
+                break;
+            case "Womens HostelTemple":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHTEMPWLE).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(ghos);
+                builder.include(temple);
+                break;
+            case "Womens HostelParking":
+                from=mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rghose = mMap.addPolyline(new PolylineOptions().addAll(WHPARKING).width(25).color(Color.YEWHWHOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(ghos);
+                builder.include(par);
+                break;

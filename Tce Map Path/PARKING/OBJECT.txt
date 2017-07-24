@@ -1,0 +1,26 @@
+ArrayList<LatLng> PMAINBUILDING = new ArrayList<LatLng>();
+ArrayList<LatLng> PIT = new ArrayList<LatLng>();
+ArrayList<LatLng> PCSE = new ArrayList<LatLng>();
+ArrayList<LatLng> PECE = new ArrayList<LatLng>();
+ArrayList<LatLng> PEEE = new ArrayList<LatLng>();
+ArrayList<LatLng> PCIVIL = new ArrayList<LatLng>();
+ArrayList<LatLng> PMECH = new ArrayList<LatLng>();
+ArrayList<LatLng> PMECHT = new ArrayList<LatLng>();
+ArrayList<LatLng> PSCIENCEBLOCK = new ArrayList<LatLng>();
+ArrayList<LatLng> PNCCBLOCK = new ArrayList<LatLng>();
+ArrayList<LatLng> PINDOOR = new ArrayList<LatLng>();
+ArrayList<LatLng> POUTDOOR = new ArrayList<LatLng>();
+ArrayList<LatLng> PKSAUDITORIUM = new ArrayList<LatLng>();
+ArrayList<LatLng> PKMAUDITORIUM = new ArrayList<LatLng>();
+ArrayList<LatLng> PPLACEMENTCELL = new ArrayList<LatLng>();
+ArrayList<LatLng> PGUSTHOUSE = new ArrayList<LatLng>();
+ArrayList<LatLng> PMAINCANTEEN = new ArrayList<LatLng>();
+ArrayList<LatLng> PFOODCOURT = new ArrayList<LatLng>();
+ArrayList<LatLng> PMENSHOSTEL = new ArrayList<LatLng>();
+ArrayList<LatLng> PWOMENSHOSTEL = new ArrayList<LatLng>();
+ArrayList<LatLng> PLIBRARY = new ArrayList<LatLng>();
+ArrayList<LatLng> PBANK = new ArrayList<LatLng>();
+ArrayList<LatLng> PTEMPLE = new ArrayList<LatLng>();
+
+
+ 

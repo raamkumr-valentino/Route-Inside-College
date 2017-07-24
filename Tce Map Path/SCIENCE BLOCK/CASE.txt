@@ -1,0 +1,251 @@
+	case "Science BlockMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBMAINBUILDING).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Blockanical";
+                builder.include(Sci);
+                builder.include(main);
+                drawPath(sci,main,"Science Block","Main Building",SBMAINBUILDING);
+                break;
+    case "Science BlockCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBCIVIL).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Blockanical";
+                builder.include(Sci);
+                builder.include(cvl);
+                break;
+            case "Science BlockIT":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBIT).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(Sci);
+                builder.include(it1);
+                break;
+            case "Science BlockCSE":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBCSE).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(Sci);
+                builder.include(cse);
+                break;
+            case "Science BlockECE":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBECE).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniScience Block";
+                builder.include(Sci);
+                builder.include(ece);
+                break;
+            case "Science BlockEEE":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBEEE).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(Sci);
+                builder.include(eee);
+                break;
+            case "Science BlockMECH":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBMECH).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science BlockatroniScience Block";
+                builder.include(Sci);
+                builder.include(mec);
+                break;
+            case "Science BlockMECT":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBMECT).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(Sci);
+                builder.include(mect);
+                break;
+            case "Science BlockFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBFRESHERSBLOCK).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(Sci);
+                builder.include(bhalls);
+                break;
+            case "Science BlockLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBLIBRARY).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(Sci);
+                builder.include(lib);
+                break;
+            case "Science BlockNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBNCCBLOCK).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(Sci);
+                builder.include(ncc);
+                break;
+            case "Science BlockIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBINDOOR).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(Sci);
+                builder.include(ind);
+                break;
+            case "Science BlockKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBKS AUDITORIUM).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(Sci);
+                builder.include(ks);
+                break;
+            case "Science BlockARCH":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBARCH).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(Sci);
+                builder.include(arch);
+                break;
+            case "Science BlockKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBKSAUDITORIUM).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="SB Auditorium";
+                builder.include(Sci);
+                builder.include(km);
+                break;
+            case "Science BlockOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBOUTDOOR).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(Sci);
+                builder.include(out);
+                break;
+            case "Science BlockGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBGUESTHOUSE).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(Sci);
+                builder.include(gh);
+                break;
+            case "Science BlockMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBMENSHOSTESB).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(Sci);
+                builder.include(mhos);
+                break;
+            case "Science BlockWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBWOMENSHOSTEL).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(Sci);
+                builder.include(ghos);
+                break;
+            case "Science BlockMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBMAINCANTEEN).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(Sci);
+                builder.include(mcan);
+                break;
+            case "Science BlockFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBFOODCOURT).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(Sci);
+                builder.include(fc);
+                break;
+            case "Science BlockPLACEMENT CESBSB":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBPLACEMENTCELL).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="SBibraray";
+                builder.include(Sci);
+                builder.include(pc);
+                break;
+            case "Science BlockBank":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBBANK).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(Sci);
+                builder.include(ban);
+                break;
+            case "Science BlockTemple":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBTEMPSBE).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(Sci);
+                builder.include(temple);
+                break;
+            case "Science BlockParking":
+                from=mMap.addMarker(new MarkerOptions().position(Sci).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rScie = mMap.addPolyline(new PolylineOptions().addAll(SBPARKING).width(25).color(Color.YESBSBOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(Sci);
+                builder.include(par);
+                break;

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place_info_card_id"
+        android:layout_margin="4dp"
+        android:elevation="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/place_head"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/place_info" />
+            <ImageView
+                android:contentDescription="@string/place_info"
+                android:id="@+id/tym_id"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/place_head"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_schedule_black_18dp" />
+            <TextView
+                android:id="@+id/place_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/place_head"
+                android:layout_toEndOf="@+id/tym_id"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="Time"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/ins_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:layout_below="@+id/place_time"
+                android:text="Instruction"
+                android:lineSpacingExtra="5dp"
+                android:textColor="#222"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

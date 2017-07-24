@@ -1,0 +1,250 @@
+	case "Km AuditoriumMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Km Auditoriumanical";
+                builder.include(km);
+                builder.include(main);
+                break;
+            case "Km AuditoriumCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMCIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Km Auditoriumanical";
+                builder.include(km);
+                builder.include(cvl);
+                break;
+            case "Km AuditoriumIT":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(km);
+                builder.include(it1);
+                break;
+            case "Km AuditoriumCSE":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMCSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(km);
+                builder.include(cse);
+                break;
+            case "Km AuditoriumECE":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniKm Auditorium";
+                builder.include(km);
+                builder.include(ece);
+                break;
+            case "Km AuditoriumEEE":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(km);
+                builder.include(eee);
+                break;
+            case "Km AuditoriumMECH":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Km AuditoriumatroniKm Auditorium";
+                builder.include(km);
+                builder.include(mec);
+                break;
+            case "Km AuditoriumMECT":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMMECT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(km);
+                builder.include(mect);
+                break;
+            case "Km AuditoriumScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMSCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(km);
+                builder.include(sci);
+                break;
+            case "Km AuditoriumFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(km);
+                builder.include(bhalls);
+                break;
+            case "Km AuditoriumNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMNCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(km);
+                builder.include(ncc);
+                break;
+            case "Km AuditoriumIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(km);
+                builder.include(ind);
+                break;
+            case "Km AuditoriumOutdoor":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(km);
+                builder.include(out);
+                break;
+            case "Km AuditoriumARCH":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Km Auditorium";
+                builder.include(km);
+                builder.include(arch);
+                break;
+            case "Km AuditoriumKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KM Auditorium";
+                builder.include(km);
+                builder.include(ks);
+                break;
+            case "Km AuditoriumPlacement Cell":
+                from=mTMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(km);
+                builder.include(pc);
+                break;
+            case "Km AuditoriumGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(km);
+                builder.include(gh);
+                break;
+            case "Km AuditoriumMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(km);
+                builder.include(mhos);
+                break;
+            case "Km AuditoriumWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(km);
+                builder.include(ghos);
+                break;
+            case "Km AuditoriumMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(km);
+                builder.include(mcan);
+                break;
+            case "Km AuditoriumFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(km);
+                builder.include(fc);
+                break;
+            case "Km AuditoriumLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMLIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(km);
+                builder.include(lib);
+                break;
+            case "Km AuditoriumBank":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(km);
+                builder.include(ban);
+                break;
+            case "Km AuditoriumTemple":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMTEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(km);
+                builder.include(temple);
+                break;
+            case "Km AuditoriumParking":
+                from=mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(KMPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(km);
+                builder.include(par);
+                break;

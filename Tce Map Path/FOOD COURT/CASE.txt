@@ -1,0 +1,250 @@
+	case "Food CourtMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCMAINBUILDING).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Courtanical";
+                builder.include(fc);
+                builder.include(main);
+                break;
+            case "Food CourtCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCCIVIL).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Courtanical";
+                builder.include(fc);
+                builder.include(cvl);
+                break;
+            case "Food CourtIT":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCIT).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(fc);
+                builder.include(it1);
+                break;
+            case "Food CourtCSE":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCCSE).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(fc);
+                builder.include(cse);
+                break;
+            case "Food CourtECE":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCECE).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniFood Court";
+                builder.include(fc);
+                builder.include(ece);
+                break;
+            case "Food CourtEEE":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCEEE).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(fc);
+                builder.include(eee);
+                break;
+            case "Food CourtMECH":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCMECH).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food CourtatroniFood Court";
+                builder.include(fc);
+                builder.include(mec);
+                break;
+            case "Food CourtMECT":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCMECT).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(fc);
+                builder.include(mect);
+                break;
+            case "Food CourtScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCSCIENCEBLOCK).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(fc);
+                builder.include(sci);
+                break;
+            case "Food CourtLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCLIBRARY).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(fc);
+                builder.include(lib);
+                break;
+            case "Food CourtNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCNCCBLOCK).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(fc);
+                builder.include(ncc);
+                break;
+            case "Food CourtIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCINDOOR).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(fc);
+                builder.include(ind);
+                break;
+            case "Food CourtKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCKS AUDITORIUM).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(fc);
+                builder.include(ks);
+                break;
+            case "Food CourtARCH":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCARCH).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(fc);
+                builder.include(arch);
+                break;
+            case "Food CourtKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCKSAUDITORIUM).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="FC Auditorium";
+                builder.include(fc);
+                builder.include(km);
+                break;
+            case "Food CourtOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCOUTDOOR).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(fc);
+                builder.include(out);
+                break;
+            case "Food CourtGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCGUESTHOUSE).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(fc);
+                builder.include(gh);
+                break;
+            case "Food CourtMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCMENSHOSTEL).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(fc);
+                builder.include(mhos);
+                break;
+            case "Food CourtWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCWOMENSHOSTEL).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(fc);
+                builder.include(ghos);
+                break;
+            case "Food CourtMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCMAINCANTEEN).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(fc);
+                builder.include(mcan);
+                break;
+            case "Food CourtFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCFOODCOURT).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(fc);
+                builder.include(fc);
+                break;
+            case "Food CourtPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCPLACEMENTCELL).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="FCibraray";
+                builder.include(fc);
+                builder.include(pc);
+                break;
+            case "Food CourtBank":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCBANK).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(fc);
+                builder.include(ban);
+                break;
+            case "Food CourtTemple":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCTEMPLE).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(fc);
+                builder.include(temple);
+                break;
+            case "Food CourtParking":
+                from=mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rfce = mMap.addPolyline(new PolylineOptions().addAll(FCPARKING).width(25).color(Color.YEFCFCOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(fc);
+                builder.include(par);
+                break;

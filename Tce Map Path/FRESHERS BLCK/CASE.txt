@@ -1,0 +1,250 @@
+	case "Freshers BlockMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBMAINBUILDING).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Blockanical";
+                builder.include(bhalls);
+                builder.include(main);
+                break;
+            case "Freshers BlockCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBCIVIL).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Blockanical";
+                builder.include(bhalls);
+                builder.include(cvl);
+                break;
+            case "Freshers BlockIT":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBIT).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(bhalls);
+                builder.include(it1);
+                break;
+            case "Freshers BlockCSE":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBCSE).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(bhalls);
+                builder.include(cse);
+                break;
+            case "Freshers BlockECE":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBECE).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniFreshers Block";
+                builder.include(bhalls);
+                builder.include(ece);
+                break;
+            case "Freshers BlockEEE":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBEEE).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(bhalls);
+                builder.include(eee);
+                break;
+            case "Freshers BlockMECH":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBMECH).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers BlockatroniFreshers Block";
+                builder.include(bhalls);
+                builder.include(mec);
+                break;
+            case "Freshers BlockMECT":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBMECT).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(bhalls);
+                builder.include(mect);
+                break;
+            case "Freshers BlockScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBSCIENCEBLOCK).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(bhalls);
+                builder.include(sci);
+                break;
+            case "Freshers BlockLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBLIBRARY).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(bhalls);
+                builder.include(lib);
+                break;
+            case "Freshers BlockNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBNCCBLOCK).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(bhalls);
+                builder.include(ncc);
+                break;
+            case "Freshers BlockIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBINDOOR).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(bhalls);
+                builder.include(ind);
+                break;
+            case "Freshers BlockKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBKS AUDITORIUM).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(bhalls);
+                builder.include(ks);
+                break;
+            case "Freshers BlockARCH":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBARCH).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(bhalls);
+                builder.include(arch);
+                break;
+            case "Freshers BlockKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBKSAUDITORIUM).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="FB Auditorium";
+                builder.include(bhalls);
+                builder.include(km);
+                break;
+            case "Freshers BlockOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBOUTDOOR).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(bhalls);
+                builder.include(out);
+                break;
+            case "Freshers BlockGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBGUESTHOUSE).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(bhalls);
+                builder.include(gh);
+                break;
+            case "Freshers BlockMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBMENSHOSTEFB).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(bhalls);
+                builder.include(mhos);
+                break;
+            case "Freshers BlockWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBWOMENSHOSTEL).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(bhalls);
+                builder.include(ghos);
+                break;
+            case "Freshers BlockMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBMAINCANTEEN).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(bhalls);
+                builder.include(mcan);
+                break;
+            case "Freshers BlockFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBFOODCOURT).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(bhalls);
+                builder.include(fc);
+                break;
+            case "Freshers BlockPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBPLACEMENTCELL).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="FBibraray";
+                builder.include(bhalls);
+                builder.include(pc);
+                break;
+            case "Freshers BlockBank":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBBANK).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(bhalls);
+                builder.include(ban);
+                break;
+            case "Freshers BlockTemple":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBTEMPLE).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(bhalls);
+                builder.include(temple);
+                break;
+            case "Freshers BlockParking":
+                from=mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rbhallse = mMap.addPolyline(new PolylineOptions().addAll(FBPARKING).width(25).color(Color.YEFBFBOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(bhalls);
+                builder.include(par);
+                break;

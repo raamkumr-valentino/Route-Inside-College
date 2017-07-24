@@ -1,0 +1,250 @@
+	case "LibraryMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraryanical";
+                builder.include(lib);
+                builder.include(main);
+                break;
+            case "LibraryCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LCIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraryanical";
+                builder.include(lib);
+                builder.include(cvl);
+                break;
+            case "LibraryIT":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(lib);
+                builder.include(it1);
+                break;
+            case "LibraryCSE":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LCSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(lib);
+                builder.include(cse);
+                break;
+            case "LibraryECE":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniLibrary";
+                builder.include(lib);
+                builder.include(ece);
+                break;
+            case "LibraryEEE":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(lib);
+                builder.include(eee);
+                break;
+            case "LibraryMECH":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="LibraryatroniLibrary";
+                builder.include(lib);
+                builder.include(mec);
+                break;
+            case "LibraryMECT":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LMECT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(lib);
+                builder.include(mect);
+                break;
+            case "LibraryScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LSCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(lib);
+                builder.include(sci);
+                break;
+            case "LibraryFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(lib);
+                builder.include(bhalls);
+                break;
+            case "LibraryNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LNCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(lib);
+                builder.include(ncc);
+                break;
+            case "LibraryIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(lib);
+                builder.include(ind);
+                break;
+            case "LibraryKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LKS AUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Library";
+                builder.include(lib);
+                builder.include(ks);
+                break;
+            case "LibraryARCH":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Library";
+                builder.include(lib);
+                builder.include(arch);
+                break;
+            case "LibraryKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="L Auditorium";
+                builder.include(lib);
+                builder.include(km);
+                break;
+            case "LibraryOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(lib);
+                builder.include(out);
+                break;
+            case "LibraryGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(lib);
+                builder.include(gh);
+                break;
+            case "LibraryMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(lib);
+                builder.include(mhos);
+                break;
+            case "LibraryWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(lib);
+                builder.include(ghos);
+                break;
+            case "LibraryMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(lib);
+                builder.include(mcan);
+                break;
+            case "LibraryFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(lib);
+                builder.include(fc);
+                break;
+            case "LibraryPLACEMENT CELL":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(lib);
+                builder.include(pc);
+                break;
+            case "LibraryBank":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(lib);
+                builder.include(ban);
+                break;
+            case "LibraryTemple":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LTEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(lib);
+                builder.include(temple);
+                break;
+            case "LibraryParking":
+                from=mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rlibe = mMap.addPolyline(new PolylineOptions().addAll(LPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(lib);
+                builder.include(par);
+                break;

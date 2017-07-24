@@ -1,0 +1,250 @@
+	case "Guest HouseMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHMAINBUILDING).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest Houseanical";
+                builder.include(gh);
+                builder.include(main);
+                break;
+            case "Guest HouseCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHCIVIL).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest Houseanical";
+                builder.include(gh);
+                builder.include(cvl);
+                break;
+            case "Guest HouseIT":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHIT).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(gh);
+                builder.include(it1);
+                break;
+            case "Guest HouseCSE":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHCSE).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(gh);
+                builder.include(cse);
+                break;
+            case "Guest HouseECE":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHECE).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniGuest House";
+                builder.include(gh);
+                builder.include(ece);
+                break;
+            case "Guest HouseEEE":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHEEE).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(gh);
+                builder.include(eee);
+                break;
+            case "Guest HouseMECH":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHMECH).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest HouseatroniGuest House";
+                builder.include(gh);
+                builder.include(mec);
+                break;
+            case "Guest HouseMECT":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHMECT).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(gh);
+                builder.include(mect);
+                break;
+            case "Guest HouseScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHSCIENCEBLOCK).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(gh);
+                builder.include(sci);
+                break;
+            case "Guest HouseLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHLIBRARY).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(gh);
+                builder.include(lib);
+                break;
+            case "Guest HouseNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHNCCBLOCK).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(gh);
+                builder.include(ncc);
+                break;
+            case "Guest HouseFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHFRESHERSBLOCK).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(gh);
+                builder.include(bhalls);
+                break;
+            case "Guest HouseKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHKS AUDITORIUM).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(gh);
+                builder.include(ks);
+                break;
+            case "Guest HouseARCH":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHARCH).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(gh);
+                builder.include(arch);
+                break;
+            case "Guest HouseKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHKSAUDITORIUM).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="GH Auditorium";
+                builder.include(gh);
+                builder.include(km);
+                break;
+            case "Guest HouseOUTDOOR":
+                from=mTMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHOUTDOOR).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(gh);
+                builder.include(out);
+                break;
+            case "Guest HouseIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHINDOOR).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(gh);
+                builder.include(ind);
+                break;
+            case "Guest HouseMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHMENSHOSTEL).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(gh);
+                builder.include(mhos);
+                break;
+            case "Guest HouseWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHWOMENSHOSTEL).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(gh);
+                builder.include(ghos);
+                break;
+            case "Guest HouseMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHMAINCANTEEN).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(gh);
+                builder.include(mcan);
+                break;
+            case "Guest HouseFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHFOODCOURT).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(gh);
+                builder.include(fc);
+                break;
+            case "Guest HousePLACEMENT CELL":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHPLACEMENTCELL).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="GHibraray";
+                builder.include(gh);
+                builder.include(pc);
+                break;
+            case "Guest HouseBank":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHBANK).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(gh);
+                builder.include(ban);
+                break;
+            case "Guest HouseTemple":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHTEMPLE).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(gh);
+                builder.include(temple);
+                break;
+            case "Guest HouseParking":
+                from=mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWghow();
+                rghe = mMap.addPolyline(new PolylineOptions().addAll(GHPARKING).width(25).color(Color.YEGHGHOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(gh);
+                builder.include(par);
+                break;

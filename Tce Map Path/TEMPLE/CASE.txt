@@ -1,0 +1,250 @@
+	case "TempleMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TMAINBUILDING).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Templeanical";
+                builder.include(temple);
+                builder.include(main);
+                break;
+            case "TempleCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TCIVIL).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Templeanical";
+                builder.include(temple);
+                builder.include(cvl);
+                break;
+            case "TempleIT":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TIT).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(temple);
+                builder.include(it1);
+                break;
+            case "TempleCSE":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TCSE).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(temple);
+                builder.include(cse);
+                break;
+            case "TempleECE":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TECE).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniTemple";
+                builder.include(temple);
+                builder.include(ece);
+                break;
+            case "TempleEEE":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TEEE).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(temple);
+                builder.include(eee);
+                break;
+            case "TempleMECH":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TMECH).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="TempleatroniTemple";
+                builder.include(temple);
+                builder.include(mec);
+                break;
+            case "TempleMECT":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TMECT).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(temple);
+                builder.include(mect);
+                break;
+            case "TempleScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TSCIENCEBLOCK).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(temple);
+                builder.include(sci);
+                break;
+            case "TempleLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TLIBRARY).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(temple);
+                builder.include(lib);
+                break;
+            case "TempleNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TNCCBLOCK).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(temple);
+                builder.include(ncc);
+                break;
+            case "TempleIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TINDOOR).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(temple);
+                builder.include(ind);
+                break;
+            case "TempleKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TKS AUDITORIUM).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(temple);
+                builder.include(ks);
+                break;
+            case "TempleARCH":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TARCH).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(temple);
+                builder.include(arch);
+                break;
+            case "TempleKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TKSAUDITORIUM).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="T Auditorium";
+                builder.include(temple);
+                builder.include(km);
+                break;
+            case "TempleOutdoor":
+                from=mTMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TOUTDOOR).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(temple);
+                builder.include(out);
+                break;
+            case "TempleGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TGUESTHOUSE).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(temple);
+                builder.include(gh);
+                break;
+            case "TempleMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TMENSHOSTET).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(temple);
+                builder.include(mhos);
+                break;
+            case "TempleWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TWOMENSHOSTEL).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(temple);
+                builder.include(ghos);
+                break;
+            case "TempleMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TMAINCANTEEN).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(temple);
+                builder.include(mcan);
+                break;
+            case "TempleFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TFOODCOURT).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(temple);
+                builder.include(fc);
+                break;
+            case "TemplePlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TPLACEMENTCELL).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Tibraray";
+                builder.include(temple);
+                builder.include(pc);
+                break;
+            case "TempleBank":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TBANK).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(temple);
+                builder.include(ban);
+                break;
+            case "TempleFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TFRESHERSBLOCK).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(temple);
+                builder.include(bhalls);
+                break;
+            case "TempleParking":
+                from=mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                rtemplee = mMap.addPolyline(new PolylineOptions().addAll(TPARKING).width(25).color(Color.YETTOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(temple);
+                builder.include(par);
+                break;

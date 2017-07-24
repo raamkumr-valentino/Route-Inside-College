@@ -1,0 +1,250 @@
+	case "EEEMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(eee);
+                builder.include(main);
+                break;
+            case "EEEMECH":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(eee);
+                builder.include(mec);
+                break;
+            case "EEEIT":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(eee);
+                builder.include(it1);
+                break;
+            case "EEECSE":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EECSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(eee);
+                builder.include(cse);
+                break;
+            case "EEEECE":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and Electronieee";
+                builder.include(eee);
+                builder.include(ece);
+                break;
+            case "EEECIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EECIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(eee);
+                builder.include(cvl);
+                break;
+            case "EEEMECHT":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEMECHT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechatronieee";
+                builder.include(eee);
+                builder.include(mect);
+                break;
+            case "EEEARCH":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(eee);
+                builder.include(arch);
+                break;
+            case "EEEScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EESCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(eee);
+                builder.include(sci);
+                break;
+            case "EEEFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(eee);
+                builder.include(bhalls);
+                break;
+            case "EEENCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EENCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(eee);
+                builder.include(ncc);
+                break;
+            case "EEEIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(eee);
+                builder.include(ind);
+                break;
+            case "EEEOutdoor":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(eee);
+                builder.include(out);
+                break;
+            case "EEEKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KS Auditorium";
+                builder.include(eee);
+                builder.include(ks);
+                break;
+            case "EEEKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEKMAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KM Auditorium";
+                builder.include(eee);
+                builder.include(km);
+                break;
+            case "EEEPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(eee);
+                builder.include(pc);
+                break;
+            case "EEEGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(eee);
+                builder.include(gh);
+                break;
+            case "EEEMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(eee);
+                builder.include(mhos);
+                break;
+            case "EEEWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(eee);
+                builder.include(ghos);
+                break;
+            case "EEEMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(eee);
+                builder.include(mcan);
+                break;
+            case "EEEFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(eee);
+                builder.include(fc);
+                break;
+            case "EEELibrary":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EELIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(eee);
+                builder.include(lib);
+                break;
+            case "EEEBank":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(eee);
+                builder.include(ban);
+                break;
+            case "EEETemple":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EETEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(eee);
+                builder.include(temple);
+                break;
+            case "EEEParking":
+                from=mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(EEPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(eee);
+                builder.include(par);
+                break;

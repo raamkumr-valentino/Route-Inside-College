@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="fab_mic">#37474F</color>
+    <color name="fab_fme">#0097A7</color>
+    <color name="fab_mic2">#18FFFF</color>
+    <color name="fab_mic3">#E91E63</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="icon">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>

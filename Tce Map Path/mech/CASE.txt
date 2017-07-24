@@ -1,0 +1,250 @@
+	case "MECHMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(mec);
+                builder.include(main);
+                break;
+            case "MECHCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MCIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mechanical";
+                builder.include(mec);
+                builder.include(cvl);
+                break;
+            case "MECHIT":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(mec);
+                builder.include(it1);
+                break;
+            case "MECHCSE":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MCSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(mec);
+                builder.include(cse);
+                break;
+            case "MECHECE":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniMECH";
+                builder.include(mec);
+                builder.include(ece);
+                break;
+            case "MECHEEE":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(mec);
+                builder.include(eee);
+                break;
+            case "MECHMECHT":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MMECHT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="MechatroniMECH";
+                builder.include(mec);
+                builder.include(mect);
+                break;
+            case "MECHARCH":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MARCH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(mec);
+                builder.include(arch);
+                break;
+            case "MECHScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MSCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(mec);
+                builder.include(sci);
+                break;
+            case "MECHFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(mec);
+                builder.include(bhalls);
+                break;
+            case "MECHNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MNCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(mec);
+                builder.include(ncc);
+                break;
+            case "MECHIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(mec);
+                builder.include(ind);
+                break;
+            case "MECHOutdoor":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(mec);
+                builder.include(out);
+                break;
+            case "MECHKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KS Auditorium";
+                builder.include(mec);
+                builder.include(ks);
+                break;
+            case "MECHKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MKMAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KM Auditorium";
+                builder.include(mec);
+                builder.include(km);
+                break;
+            case "MECHPlacement Cell":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MPLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(mec);
+                builder.include(pc);
+                break;
+            case "MECHGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(mec);
+                builder.include(gh);
+                break;
+            case "MECHMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(mec);
+                builder.include(mhos);
+                break;
+            case "MECHWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(mec);
+                builder.include(ghos);
+                break;
+            case "MECHMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(mec);
+                builder.include(mcan);
+                break;
+            case "MECHFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(mec);
+                builder.include(fc);
+                break;
+            case "MECHLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MLIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(mec);
+                builder.include(lib);
+                break;
+            case "MECHBank":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MBANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(mec);
+                builder.include(ban);
+                break;
+            case "MECHTemple":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MTEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(mec);
+                builder.include(temple);
+                break;
+            case "MECHParking":
+                from=mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MPARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(mec);
+                builder.include(par);
+                break;

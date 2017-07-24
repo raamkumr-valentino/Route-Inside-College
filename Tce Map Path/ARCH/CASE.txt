@@ -1,0 +1,250 @@
+	case "ARCHMain Building":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(main).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AMAINBUILDING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="ARCHanical";
+                builder.include(arch);
+                builder.include(main);
+                break;
+            case "ARCHCIVIL":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cvl).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ACIVIL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="ARCHanical";
+                builder.include(arch);
+                builder.include(cvl);
+                break;
+            case "ARCHIT":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(it1).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AIT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Computer Science";
+                builder.include(arch);
+                builder.include(it1);
+                break;
+            case "ARCHCSE":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(cs).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ACSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electronic and Communication";
+                builder.include(arch);
+                builder.include(cse);
+                break;
+            case "ARCHECE":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ece).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AECE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Electrical and ElectroniARCH";
+                builder.include(arch);
+                builder.include(ece);
+                break;
+            case "ARCHEEE":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(eee).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AEEE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Civil";
+                builder.include(arch);
+                builder.include(eee);
+                break;
+            case "ARCHMECH":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mec).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AMECH).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="ARCHatroniARCH";
+                builder.include(arch);
+                builder.include(mec);
+                break;
+            case "ARCHMECT":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mect).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AMECT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Architecture";
+                builder.include(arch);
+                builder.include(mect);
+                break;
+            case "ARCHScience Block":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(sci).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ASCIENCEBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Science Block";
+                builder.include(arch);
+                builder.include(sci);
+                break;
+            case "ARCHFreshers Block":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(bhalls).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AFRESHERBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Freshers Block";
+                builder.include(arch);
+                builder.include(bhalls);
+                break;
+            case "ARCHNCC Block":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ncc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ANCCBLOCK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="NCC Block";
+                builder.include(arch);
+                builder.include(ncc);
+                break;
+            case "ARCHIndoor":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ind).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AINDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Indoor";
+                builder.include(arch);
+                builder.include(ind);
+                break;
+            case "ARCHOutdoor":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(out).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AOUTDOOR).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Outdoor";
+                builder.include(arch);
+                builder.include(out);
+                break;
+            case "ARCHKS Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ks).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AKSAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KS Auditorium";
+                builder.include(arch);
+                builder.include(ks);
+                break;
+            case "ARCHKM Auditorium":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(km).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AKMAUDITORIUM).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="KM Auditorium";
+                builder.include(arch);
+                builder.include(km);
+                break;
+            case "ARCHPlacement Cell":
+                from=mTMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = map.addMarker(new MarkerOptions().position(pc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(APLACEMENTCELL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Placement Cell";
+                builder.include(arch);
+                builder.include(pc);
+                break;
+            case "ARCHGuest House":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(gh).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(MGUESTHOUSE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Guest House";
+                builder.include(arch);
+                builder.include(gh);
+                break;
+            case "ARCHMens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mhos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Mens Hostel";
+                builder.include(arch);
+                builder.include(mhos);
+                break;
+            case "ARCHWomens Hostel":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ghos).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AWOMENSHOSTEL).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Womens Hostel";
+                builder.include(arch);
+                builder.include(ghos);
+                break;
+            case "ARCHMain Canteen":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(mcan).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AMAINCANTEEN).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Main Canteen";
+                builder.include(arch);
+                builder.include(mcan);
+                break;
+            case "ARCHFood Court":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(fc).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(AFOODCOURT).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Food Court";
+                builder.include(arch);
+                builder.include(fc);
+                break;
+            case "ARCHLibrary":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(lib).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ALIBRARY).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Libraray";
+                builder.include(arch);
+                builder.include(lib);
+                break;
+            case "ARCHBank":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(ban).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ABANK).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Bank";
+                builder.include(arch);
+                builder.include(ban);
+                break;
+            case "ARCHTemple":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(temple).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(ATEMPLE).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Temple";
+                builder.include(arch);
+                builder.include(temple);
+                break;
+            case "ARCHParking":
+                from=mMap.addMarker(new MarkerOptions().position(arch).title(tittle).snippet("From"));
+                to = mMap.addMarker(new MarkerOptions().position(par).title(tittle).snippet("To Here"));
+                to.showInfoWindow();
+                route = mMap.addPolyline(new PolylineOptions().addAll(APARKING).width(25).color(Color.YELLOW));
+                fromArr="InformationTechnology";
+                toArr="Parking";
+                builder.include(arch);
+                builder.include(par);
+                break;

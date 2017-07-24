@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image_ids">
+        <item>@drawable/bank</item>
+        <item>@drawable/bhalls</item>
+        <item>@drawable/cse</item>
+        <item>@drawable/eee</item>
+        <item>@drawable/fc</item>
+        <item>@drawable/guesthouse</item>
+        <item>@drawable/it</item>
+        <item>@drawable/km</item>
+        <item>@drawable/mecht</item>
+        <item>@drawable/ncc</item>
+        <item>@drawable/outdoor</item>
+        <item>@drawable/parking</item>
+        <item>@drawable/placementcell</item>
+        <item>@drawable/science</item>
+    </array>
+    <array name="names">
+        <item>Bank</item>
+        <item>Freshers Block</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Food Court</item>
+        <item>Guest House</item>
+        <item>Information Technology</item>
+        <item>KM Aditorium</item>
+        <item>Mechatronics</item>
+        <item>NCC Office</item>
+        <item>Outdoor</item>
+        <item>Parking</item>
+        <item>Placement Cell</item>
+        <item>Science Block</item>
+    </array>
+</resources>
